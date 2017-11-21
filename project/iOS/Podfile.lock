@@ -1,0 +1,18 @@
+PODS:
+  - BaiduMapKit (3.4.2)
+  - Bugly (2.4.8)
+  - MJRefresh (3.1.15)
+
+DEPENDENCIES:
+  - BaiduMapKit
+  - Bugly
+  - MJRefresh
+
+SPEC CHECKSUMS:
+  BaiduMapKit: f61b19ecf07a3f2deede72b221b366bf698739ed
+  Bugly: da3c02408c14838d498429320545a8e439392978
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+
+PODFILE CHECKSUM: 53b91eb492620ac95a93d2acfafef42a939a12a4
+
+COCOAPODS: 1.4.0.beta.2

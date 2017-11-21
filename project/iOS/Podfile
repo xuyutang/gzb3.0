@@ -1,0 +1,6 @@
+platform :ios, '7.0'
+target 'SalesManager' do
+pod 'MJRefresh'
+pod 'BaiduMapKit'
+pod 'Bugly'
+end
