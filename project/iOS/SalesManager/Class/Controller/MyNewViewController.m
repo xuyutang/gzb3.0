@@ -63,6 +63,8 @@
                     myInfocell=(MyinfoCell *)oneObject;
             }
         }
+        myInfocell.selectionStyle = UITableViewCellSelectionStyleNone;
+
         return myInfocell;
     }else if (indexPath.section == 1){
 
@@ -81,6 +83,8 @@
         cell.titleLab.text = [dic objectForKey:@"title"];
         cell.infoImagView.image = [UIImage imageNamed:[dic objectForKey:@"icon"]];
         cell.numberLab.hidden = YES;
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+
         return cell;
         
     }else if (indexPath.section == 2) {
@@ -96,7 +100,7 @@
 
         cell.titleLab.text = @"我的草稿";
         cell.infoImagView.image = [UIImage imageNamed:@"tab_home_press"];
-       
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
         return cell;
         
     } else {
@@ -110,6 +114,7 @@
             }
         }
         cell.numberLab.hidden = YES;
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
 
         cell.titleLab.text = @"设置";
         cell.infoImagView.image = [UIImage imageNamed:@"tab_home_press"];

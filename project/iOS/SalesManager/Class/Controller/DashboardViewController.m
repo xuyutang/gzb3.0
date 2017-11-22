@@ -842,6 +842,7 @@
                     mycell=(MyInfoListCell *)oneObject;
             }
         }
+        mycell.selectionStyle = UITableViewCellSelectionStyleNone;
         mycell.titleLab.text = ((Function*)userFunc[indexPath.row] ).name;
         mycell.infoImagView.image = [UIImage imageNamed:@"ab_icon_apply"];
         mycell.numberLab.hidden = YES;
