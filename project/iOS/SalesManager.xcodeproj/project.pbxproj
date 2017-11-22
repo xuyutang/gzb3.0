@@ -54,6 +54,11 @@
 		7387CC9F1DEEB9AC001EE0D6 /* AddWifiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7387CC9E1DEEB9AC001EE0D6 /* AddWifiViewController.m */; };
 		7387CCA31DEECF76001EE0D6 /* ChangeDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7387CCA11DEECF76001EE0D6 /* ChangeDateTableViewCell.m */; };
 		7387CCA41DEECF76001EE0D6 /* ChangeDateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7387CCA21DEECF76001EE0D6 /* ChangeDateTableViewCell.xib */; };
+		738919AB1FC50715006DB9AA /* MyNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 738919AA1FC50715006DB9AA /* MyNewViewController.m */; };
+		738919B11FC517C5006DB9AA /* MyinfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 738919AF1FC517C5006DB9AA /* MyinfoCell.m */; };
+		738919B21FC517C5006DB9AA /* MyinfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 738919B01FC517C5006DB9AA /* MyinfoCell.xib */; };
+		738919BB1FC54A20006DB9AA /* MyInfoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 738919B91FC54A20006DB9AA /* MyInfoListCell.m */; };
+		738919BC1FC54A20006DB9AA /* MyInfoListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 738919BA1FC54A20006DB9AA /* MyInfoListCell.xib */; };
 		738D63E21E25D8CC0085A003 /* app_logo_wt.png in Resources */ = {isa = PBXBuildFile; fileRef = 738D63E01E25D8CC0085A003 /* app_logo_wt.png */; };
 		738D63E31E25D8CC0085A003 /* app_logo57_wt.png in Resources */ = {isa = PBXBuildFile; fileRef = 738D63E11E25D8CC0085A003 /* app_logo57_wt.png */; };
 		738D63EB1E276B360085A003 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738D63EA1E276B360085A003 /* UserNotifications.framework */; };
@@ -731,6 +736,14 @@
 		7387CCA01DEECF76001EE0D6 /* ChangeDateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeDateTableViewCell.h; sourceTree = "<group>"; };
 		7387CCA11DEECF76001EE0D6 /* ChangeDateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeDateTableViewCell.m; sourceTree = "<group>"; };
 		7387CCA21DEECF76001EE0D6 /* ChangeDateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeDateTableViewCell.xib; sourceTree = "<group>"; };
+		738919A91FC50715006DB9AA /* MyNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNewViewController.h; sourceTree = "<group>"; };
+		738919AA1FC50715006DB9AA /* MyNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNewViewController.m; sourceTree = "<group>"; };
+		738919AE1FC517C5006DB9AA /* MyinfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyinfoCell.h; sourceTree = "<group>"; };
+		738919AF1FC517C5006DB9AA /* MyinfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyinfoCell.m; sourceTree = "<group>"; };
+		738919B01FC517C5006DB9AA /* MyinfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyinfoCell.xib; sourceTree = "<group>"; };
+		738919B81FC54A20006DB9AA /* MyInfoListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyInfoListCell.h; sourceTree = "<group>"; };
+		738919B91FC54A20006DB9AA /* MyInfoListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInfoListCell.m; sourceTree = "<group>"; };
+		738919BA1FC54A20006DB9AA /* MyInfoListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyInfoListCell.xib; sourceTree = "<group>"; };
 		738D63E01E25D8CC0085A003 /* app_logo_wt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_logo_wt.png; sourceTree = "<group>"; };
 		738D63E11E25D8CC0085A003 /* app_logo57_wt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_logo57_wt.png; sourceTree = "<group>"; };
 		738D63E91E272A480085A003 /* SalesManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SalesManager.entitlements; sourceTree = "<group>"; };
@@ -1983,6 +1996,9 @@
 				7DC73C1717A667B100C3AD19 /* View */,
 				7D9F245117A7995F000B7FC0 /* Model */,
 				731039461DF937550059DA7E /* CommonTool */,
+				738919B81FC54A20006DB9AA /* MyInfoListCell.h */,
+				738919B91FC54A20006DB9AA /* MyInfoListCell.m */,
+				738919BA1FC54A20006DB9AA /* MyInfoListCell.xib */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -1990,6 +2006,8 @@
 		7DC73C0F17A667B100C3AD19 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				738919A91FC50715006DB9AA /* MyNewViewController.h */,
+				738919AA1FC50715006DB9AA /* MyNewViewController.m */,
 				73C542B11DE3F57700B0A790 /* Holiday */,
 				E89E75C319CFF55500789BC5 /* Apply */,
 				E89B7B2818926A1A003106F6 /* Attendance */,
@@ -2017,6 +2035,9 @@
 				E829297F1B156489009B1B65 /* Track */,
 				E89B7B3618926A6F003106F6 /* Worklog */,
 				C3A655371BE87ADC0028E26E /* Video */,
+				738919AE1FC517C5006DB9AA /* MyinfoCell.h */,
+				738919AF1FC517C5006DB9AA /* MyinfoCell.m */,
+				738919B01FC517C5006DB9AA /* MyinfoCell.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -3504,6 +3525,7 @@
 				E8BDC57118A9CEFC007FEEEB /* ic_favorite_off.png in Resources */,
 				C3D161FF1CA3BB4D00AB53C4 /* ProductFilterViewController.xib in Resources */,
 				7361410B1ECC1BDF000CFF2C /* AuditTableViewCell.xib in Resources */,
+				738919BC1FC54A20006DB9AA /* MyInfoListCell.xib in Resources */,
 				933F9CC71B16ECE300FA9D53 /* NewCustomerViewController.xib in Resources */,
 				933F9CE31B184ACB00FA9D53 /* PatrolDetailHeader.xib in Resources */,
 				E8BDC57518A9CEFC007FEEEB /* ic_delete_grey@2x.png in Resources */,
@@ -3609,6 +3631,7 @@
 				73DBCEE41D4F3D950054E8D1 /* abs__spinner_ab_default_holo_dark1.9.png in Resources */,
 				E82929AE1B159FEE009B1B65 /* TrackMapViewController.xib in Resources */,
 				7368C0971D34B9660041ECE4 /* video_record.png in Resources */,
+				738919B21FC517C5006DB9AA /* MyinfoCell.xib in Resources */,
 				C35FD4A41C61C8A400C16BD0 /* PDColelctionCell.xib in Resources */,
 				934BD1F31AB00E7200447C54 /* TaskStatusView.xib in Resources */,
 				9374CEA51AE7427A00473F21 /* edit.png in Resources */,
@@ -3712,6 +3735,7 @@
 				7DF8893A17A8DBC6003B47A3 /* BaseViewController.m in Sources */,
 				7DF8894217A8E392003B47A3 /* MainFunctionViewController.m in Sources */,
 				73C542C51DE3F5B400B0A790 /* LeaveApplyViewController.m in Sources */,
+				738919AB1FC50715006DB9AA /* MyNewViewController.m in Sources */,
 				7DF8895B17A8FF40003B47A3 /* ProfileCell.m in Sources */,
 				7DF8896117A9158B003B47A3 /* TextFieldCell.m in Sources */,
 				7DF8896817A918F5003B47A3 /* LocationCell.m in Sources */,
@@ -3764,6 +3788,7 @@
 				C306C6731BD085BB00018241 /* ThreeFilterViewController.m in Sources */,
 				7D5EB6E217AFADC400801395 /* UserSelectViewController.m in Sources */,
 				735813AF1D6A878600E3C765 /* DataReportViewController.m in Sources */,
+				738919BB1FC54A20006DB9AA /* MyInfoListCell.m in Sources */,
 				C3A3FE0E1CB4FDD700085FC2 /* InspectionStatusViewController.m in Sources */,
 				E8ACF5E917B09172009F4FE9 /* ChangePasswdViewController.m in Sources */,
 				7D8FE67817B0F47A001F4891 /* CustomerCategoryView.m in Sources */,
@@ -3825,6 +3850,7 @@
 				C38EC18D1BCBB27500A350CF /* CustNameAndNameFilterViewController.m in Sources */,
 				7D6F545917B36474009B503C /* CommonCell.m in Sources */,
 				7D6F546217B396A0009B503C /* CustomerContactCell.m in Sources */,
+				738919B11FC517C5006DB9AA /* MyinfoCell.m in Sources */,
 				93C0EBC41AE9E983009E8614 /* CustomerListViewController.m in Sources */,
 				7D86183E17B48E4E00C142CB /* SMContact.m in Sources */,
 				E84BF4FF17B39BC1000E095E /* SaleStatisticsSearchViewController.m in Sources */,

@@ -24,6 +24,7 @@
 #import "Constant.h"
 #import "WorklogViewController.h"
 #import "CreatePage.h"
+#import "MyInfoListCell.h"
 
 @interface DashboardViewController (){
     
@@ -832,14 +833,18 @@
             [cell addSubview:toptop];
         [cell addSubview:lblGrayline];
     }else if(indexPath.section == 1){
-        UITableViewCell*mycell=(UITableViewCell*)[tableView dequeueReusableCellWithIdentifier:@"cell02"];
+        MyInfoListCell *mycell = [tableView dequeueReusableCellWithIdentifier:@"MyInfoListCell"];
         if(mycell==nil){
-            mycell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell02"];
-            
+            NSArray *nib=[[NSBundle mainBundle]loadNibNamed:@"MyInfoListCell" owner:self options:nil];
+            for(id oneObject in nib)
+            {
+                if([oneObject isKindOfClass:[MyInfoListCell class]])
+                    mycell=(MyInfoListCell *)oneObject;
+            }
         }
-        mycell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-        mycell.textLabel.text = ((Function*)userFunc[indexPath.row] ).name;
-        mycell.imageView.image = [UIImage imageNamed:@"app_logo"];
+        mycell.titleLab.text = ((Function*)userFunc[indexPath.row] ).name;
+        mycell.infoImagView.image = [UIImage imageNamed:@"ab_icon_apply"];
+        mycell.numberLab.hidden = YES;
         return mycell;
       //  [cell addSubview:menuView];
     } else {

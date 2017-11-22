@@ -49,6 +49,7 @@
 #import "DashboardViewController.h"
 #import "CustomerListViewController.h"
 #import "MyViewController.h"
+#import "MyNewViewController.h"
 #import "TrackViewController.h"
 #import "TrackMapViewController.h"
 #import "NearPersonViewController.h"
@@ -146,8 +147,8 @@
                                                             initWithRootViewController:secondViewController];
             
             
-            MyViewController *thirdViewController = [[MyViewController alloc] initWithNibName:@"MyViewController" bundle:nil];
-            thirdViewController.title = NSLocalizedString(@"dashboard_title_2", "");
+            MyNewViewController *thirdViewController = [[MyNewViewController alloc] init];
+//            thirdViewController.title = @"工作宝管理系统";
             thirdViewController.user = USER;
             thirdViewController.parentController = APPDELEGATE.mainTabbar;
             UIViewController *thirdNavigationController = [[UINavigationController alloc]
